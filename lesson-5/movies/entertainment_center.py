@@ -29,4 +29,4 @@ captain_america_3 = media.Movie("Captain America 3: Civil War",
 movies = [toy_story, avatar, captain_america_3]
 #fresh_tomatoes.open_movies_page(movies)
 
-print(media.Movie.valid_ratings)
+print(media.Movie.VALID_RATINGS)
