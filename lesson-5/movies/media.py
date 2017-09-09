@@ -10,6 +10,7 @@ trailer_youtube_url
 import webbrowser
 
 class Movie():
+    """ This class provides a way to store movie related information"""
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
     
     # constructor, being called automatically at media.Motie(title, storyline, poster, trailer)
