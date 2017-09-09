@@ -3,6 +3,8 @@ title
 storyline
 poster_image
 trailer
+
+*self will be automatically added at instantiation
 '''
 
 class Movie():
