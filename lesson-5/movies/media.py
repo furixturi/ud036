@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 '''
 title
 storyline
-poster_image
-trailer
+poster_image_url
+trailer_youtube_url
 
 *self will be automatically added at instantiation
 '''
@@ -14,9 +15,9 @@ class Movie():
                  poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
-        self.poster_image = poster_image
-        self.trailer = trailer_youtube
+        self.poster_image_url = poster_image
+        self.trailer_youtube_url = trailer_youtube
 
     # instance method, self is automatically given 
     def show_trailer(self):
-        webbrowser.open(self.trailer)
+        webbrowser.open(self.trailer_youtube_url)
