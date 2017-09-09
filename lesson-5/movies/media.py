@@ -10,6 +10,8 @@ trailer_youtube_url
 import webbrowser
 
 class Movie():
+    valid_ratings = ["G", "PG", "PG-13", "R"]
+    
     # constructor, being called automatically at media.Motie(title, storyline, poster, trailer)
     def __init__(self, movie_title, movie_storyline,
                  poster_image, trailer_youtube):
