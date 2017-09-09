@@ -27,4 +27,6 @@ captain_america_3 = media.Movie("Captain America 3: Civil War",
 #captain_america_3.show_trailer()
 
 movies = [toy_story, avatar, captain_america_3]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.valid_ratings)
